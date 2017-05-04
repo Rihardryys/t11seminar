@@ -1,0 +1,9 @@
+* Spring Boot veebirakenduse loomiseks ja käivitamiseks vajalikud failid ja tegevused
+
+1) Vaja POM.XML faili, et ära defineerida vajalikud dependencied.
+2) src/main/java/user/ sisse oma rakendus, Java failid, kuhu igale failile tuleb algusesse package (pom.xml defineeritud groupId)
+3) Iga faili algusesse tuleb ka importida spring booti erinevad sisse ehitatud funktsioonid, näiteks kindlasti org.springframework.boot.SpringApplication,
+ et oleks võimalik lisada porte.
+4) scl rh-maven33 bash, mvn package, java -jar target/(pom.xml version)
+
+
